@@ -1,0 +1,77 @@
+#script: ceccs17d21.29.11.18
+#by Georgi K Joseph
+#!!!some programs are developed in turbo c platform
+
+clear
+echo "Starting script shell ceccs17d21";
+ls
+gcc 01_Sequential_Search.c;
+./01_Sequential_Search;
+gcc 02_Selection_Sort.c;
+./02_Selection_Sort;
+gcc 03_Insertion_sort.c;
+./03_Insertion_sort;
+gcc 04_Bubble_Sort.c;
+./04_Bubble_Sort.c;
+gcc 05_Mergesort/:/ non/-/recursive.c;
+./05_Mergesort/:/ non/-/recursive;
+gcc 06_Mergesort/:/ recursive.c;
+./06_Mergesort/:/ recursive.c;
+gcc 07_QuickSort_Iterative.c;
+./07_QuickSort_Iterative;
+gcc 08_QuickSort_Recursive.c;
+./08_QuickSort_Recursive;
+gcc 09_HeapSort.c;
+./09_HeapSort.c ;
+gcc 10_Binary_search.c;
+./10_Binary_search;
+gcc 11_Single_LL.c;
+./11_Single_LL;
+gcc 12-Doubly_LL.c;
+./12-Doubly_LL;
+gcc 13_Circular_Singly_LL.c;
+./13_Circular_Singly_LL;
+gcc 14_Circular_Doubly_LL.c;
+./14_Circular_Doubly_LL;
+gcc 15_Polynomial_Representation.c;
+./15_Polynomial_Representation;
+gcc 16_Polynomial_Addition.c;
+./16_Polynomial_Addition;
+gcc 17_Polynomial_Multiplication.c;
+./17_Polynomial_Multiplication;
+gcc 18_Stack_Using_Array.c;
+./18_Stack_Using_Array;
+gcc 19_Stack_Using_LL.c;
+./19_Stack_Using_LL;
+gcc 20_Multiple_Stack.c;
+./20_Multiple_Stack;
+gcc 21_Representation_Ari_Operation_LL.c;
+./21_Representation_Ari_Operation_LL.c;
+gcc 22_Infix_to_Postfix_Conversion.c;
+./22_Infix_to_Postfix_Conversion;
+gcc 23_Postfix_Evaluvation.c;
+./23_Postfix_Evaluvation;
+gcc 24_Infix_Evaluvation.c;
+./24_Infix_Evaluvation;
+gcc 26_Queue_using_array.c;
+./26_Queue_using_array;
+gcc 27_Dequeue_Array.c;
+./27_Dequeue_Array;
+gcc 28_Circular_Q_Array.c;
+./28_Circular_Q_Array;
+gcc 29_Q_Using_LL.c;
+./29_Q_Using_LL;
+gcc 30_Dequeue_LL.c;
+./30_Dequeue_LL;
+gcc 31_Circular_Queue_LL.c;
+./31_Circular_Queue_LL;
+gcc 32_BinaryTree_LL.c;
+./32_BinaryTree_LL;
+gcc 33_Binarytree_array.c;
+./33_Binarytree_array;
+gcc 41_Binary_Search_Tree_Operation_LL.c;
+./41_Binary_Search_Tree_Operation_LL;
+
+echo "Ending Script";
+cat ceccs17d21.29.11.18.txt
+exit
