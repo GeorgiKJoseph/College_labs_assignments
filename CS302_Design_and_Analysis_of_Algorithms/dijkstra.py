@@ -65,7 +65,7 @@ def dShortPath(n,start,graphList,distance,visited,mat):
         itCount -= 1
         cur = nextNode(visited,distance)
 
-
+# Input graph in adjacency matrix form
 if __name__ == '__main__':
     mat = [[int(x) for x in y.split(' ')] for y in input().split(',')]
     if len(mat) != len(mat[0]):
@@ -81,3 +81,20 @@ if __name__ == '__main__':
     dShortPath(N,start,graphList,distance,visited,mat)
     for i in range(N):
         print(start,' -> ',i," = ",distance[i])
+
+'''
+Sample input
+0 4 0 0 0 0 0 8 0,4 0 8 0 0 0 0 11 0,0 8 0 7 0 4 0 0 2,0 0 7 0 9 14 0 0 0,0 0 0 9 0 10 0 0 0,0 0 4 14 10 0 2 0 0,0 0 0 0 0 2 0 1 6,8 11 0 0 0 0 1 0 7,0 0 2 0 0 0 6 7 0
+
+Output
+Start node: 0
+0  ->  0  =  0
+0  ->  1  =  4
+0  ->  2  =  12
+0  ->  3  =  19
+0  ->  4  =  21
+0  ->  5  =  11
+0  ->  6  =  9
+0  ->  7  =  8
+0  ->  8  =  14
+'''
